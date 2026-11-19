@@ -1,10 +1,15 @@
 [package]
-name = "sigmaos_adversarial_machine_learning"
+name = "SigmaOS-adversarial-machine-learning"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "SigmaOS adversarial-machine-learning component inspired by Linux Mint / Omarchy / Arch Linux."
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_adversarial_machine_learning component"
 
 [lib]
 name = "sigmaos_adversarial_machine_learning"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
